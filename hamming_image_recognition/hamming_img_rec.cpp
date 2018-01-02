@@ -16,7 +16,7 @@ vector<unsigned int> process(vector<int> noisy_image, vector < vector<int> > lea
 	for (int j = 0; j < m; j++) {
 		Z[j] = Y[j] >= 0 ? Y[j] : 0;
 	}
-	double eps = 0.09;
+	double eps = 0.095;
 	vector<unsigned int> winners(m, 0);
 	vector<double> Znext = Z;
 	int it = 0;
@@ -51,7 +51,6 @@ vector<unsigned int> process(vector<int> noisy_image, vector < vector<int> > lea
 		}
 	} while ( winners.size() > 1);
 	cout << "Iterations: " << it << endl;
-	//winners = find_winners(Znext);
 	return winners;
 }
 vector<unsigned int> find_winners(vector<double> output) {
