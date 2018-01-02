@@ -14,4 +14,40 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="hamming_img_rec.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="learning_images\0.txt" />
+    <Text Include="learning_images\1.txt" />
+    <Text Include="learning_images\2.txt" />
+    <Text Include="learning_images\3.txt" />
+    <Text Include="learning_images\4.txt" />
+    <Text Include="learning_images\5.txt" />
+    <Text Include="learning_images\6.txt" />
+    <Text Include="learning_images\7.txt" />
+    <Text Include="learning_images\8.txt" />
+    <Text Include="learning_images\9.txt" />
+    <Text Include="noisy_images\5.txt" />
+    <Text Include="noisy_images\0.txt" />
+    <Text Include="noisy_images\1.txt" />
+    <Text Include="noisy_images\2.txt" />
+    <Text Include="noisy_images\3.txt" />
+    <Text Include="noisy_images\4.txt" />
+    <Text Include="noisy_images\6.txt" />
+    <Text Include="noisy_images\7.txt" />
+    <Text Include="noisy_images\8.txt" />
+    <Text Include="noisy_images\9.txt" />
+    <Text Include="noisy_images\10.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="hamming_img_rec.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
